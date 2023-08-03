@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background2.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
+.bar-container {
+    display: flex;
+    width: auto;
+    background-color: #fde7fd;
+    flex-direction: row; 
+    justify-content: right;
+}
+
+.logo {
+    margin: 10px;
+    padding: 3px;
+    font-family: fantasy, cursive;
+    font-size: 30px;
+    font-family: Rouge Script, cursive;
+    padding-right: 300px;
+    text-shadow: 2px 2px 4px pink;
+}
+
+.bar-item {
+    margin: 10px;
+    padding: 5px;
+    padding-right: 140px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: fantasy;
+    color: #dcdce0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+}
+
+.desc {
+    background: rgba(255,255,255, 0.6);
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.0;
+    padding: 20px;
+}
+
+
+.p1, .p2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.title1 {
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px pink;
+}
+
+#coding {
+    font-family: fantasy;
+    color: rgb(58, 2, 58);
+    text-shadow: 2px 2px 4px pink;
+}
+
+#tech, #dance {
+    font-family: fantasy;
+    color: rgb(145, 100, 2);
+    text-shadow: 2px 2px 4px rgb(255, 158, 14);
+}
