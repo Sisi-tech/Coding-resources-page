@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 68px;
+    background-color: white;
+    flex-direction: row; 
+    justify-content: right;
+    box-shadow: 1px 1px 1px rgb(229, 226, 226);
+}
+
+.bar-container a{
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0px;
+    padding-top: 12px;
+    font-family: fantasy, cursive;
+    font-size: 20px;
+    font-family: Rouge Script, cursive;
+    padding-right: 10px;
+    text-shadow: 2px 2px 4px pink;
+}
+
+.bar-item {
+    margin: 10px;
+    padding: 5px;
+    padding-right: 140px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: fantasy;
+    color: #dcdce0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-page {
+    margin-top: 60px;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+fieldset {
+    width: 800px;
+}
+legend {
+    font-size: 20px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.form-footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btn {
+    padding: 9px;
+    background-color: rgb(249, 233, 249);
+    font-size: 20px;
+    border: 1px solid rgb(57, 3, 129);
+    border-radius: 6px;
+}
+label {
+    background-color: rgb(245, 228, 251);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.form-input, textarea {
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: white;
+    width: 300px;
+}
+textarea {
+    width: 660px;
+    height: 100px;
+}
+

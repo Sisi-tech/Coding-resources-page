@@ -4,27 +4,39 @@
 }
 
 body {
-    background-image: url(background2.jpg);
+    background-image: url("./pic/background2.jpg");
     background-position: left top;
     background-repeat: repeat;
     background-size: 100% auto;
 }
 
 .bar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    width: auto;
-    background-color: #fde7fd;
+    height: 68px;
+    background-color: white;
     flex-direction: row; 
     justify-content: right;
+    box-shadow: 1px 1px 1px rgb(229, 226, 226);
+}
+.main-container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.bar-container a{
+    text-decoration: none;
 }
 
 .logo {
-    margin: 10px;
-    padding: 3px;
+    margin: 0px;
+    padding-top: 12px;
     font-family: fantasy, cursive;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Rouge Script, cursive;
-    padding-right: 300px;
+    padding-right: 10px;
     text-shadow: 2px 2px 4px pink;
 }
 
@@ -51,8 +63,8 @@ img {
 .desc {
     background: rgba(255,255,255, 0.6);
     margin-top: 80px;
-    margin-left: 180px;
-    margin-right: 180px;
+    /* margin-left: 180px;
+    margin-right: 180px; */
     justify-content: center;
     text-align: center;
     line-height: 2.0;
